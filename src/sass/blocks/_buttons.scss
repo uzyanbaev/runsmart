@@ -9,6 +9,10 @@
 	font-size: 12px;
 	font-weight: 500;
 	text-transform: uppercase;
+	&:hover {
+		background-color: #b20000;
+		box-shadow: 1px 1px 10px #b20000;
+	}
 	&_main {
 		margin-top: 68px;
 		width: 300px;
@@ -25,7 +29,7 @@
 		width: 131px;
 		height: 40px;
 		border-radius: 5px;
-		background-color: #c70101;
+		background-color: $main-color;
 		font-size: 14px;
 	}
 }

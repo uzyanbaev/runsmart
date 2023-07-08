@@ -1,24 +1,66 @@
 .carousel {
-	padding: 81px 0;
-	&__inner {
-		position: relative;
-		width: 750px;
-		margin: 0 auto;
-	}
-	.slick-prev, .slick-next {
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-		left: -66px;
-		border: none;
-		background-color: #fff;
-		img {
-			width: 31px;
-			height: 50px;
-		}
-	}
-	.slick-next {
-		right: -66px;
-		left: auto;
-	}
+    padding: 81px 0;
+    &__inner {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+        .slick-prev {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -66px;            
+            border: none;
+            background: #fff;
+            img {
+                width: 31px;
+                height: 50px;                
+                transition: 0.4s all;
+                &:hover {
+                    width: 34px;
+                    height: 55px;
+                }
+            }            
+            
+        }
+        .slick-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -66px;            
+            border: none;
+            background: #fff;
+            img {
+                width: 31px;
+                height: 50px;
+                transition: 0.3s all;
+                &:hover {
+                    width: 34px;
+                    height: 55px;
+                }
+            }
+        }
+        .slick-dots {
+			margin-top: 15px;
+            padding: 5px 0;
+            display: flex;
+            justify-content: center;
+            li {
+                list-style-type: none;
+                margin-right: 10px;
+                font-size: 0;                
+                opacity: 0.40;
+                button {
+                    padding: 0 0 0 0;
+                    width: 10px;
+                    height: 10px;
+                    border: none;
+                    border-radius: 100%;
+                    background-color: $main_color;      
+                }
+                &.slick-active {
+                    opacity: 1;                   
+                }                
+            }            
+        }
+    }
 }
