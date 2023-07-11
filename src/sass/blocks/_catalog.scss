@@ -134,16 +134,22 @@
             padding-left: 19px;
             margin-bottom: 0;
             list-style-type: none;
+			padding: 0;
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
+			ul {
+				padding-left: 1rem;
+				padding-right: 15px;
+			}
             li {
                 position: relative;
                 color: #555555;
                 font-size: 14px;
                 font-weight: 300;
                 margin-bottom: 20px;
+				list-style-type: none;
                 &:before {
                     content: '';
                     position: absolute;

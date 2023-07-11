@@ -52,7 +52,7 @@
 		font-size: 20px;
 	}
 	.promo {
-		background: url(../../img/main.jpg) 5% center/cover no-repeat;
+		background: url("../../img/main.jpg") 5% center/cover no-repeat;
 		&__header {
 			font-size: 40px;
 		}
@@ -125,7 +125,7 @@
 		font-size: 20px;
 	}
 	.promo {
-		background: url(../../img/main.jpg) 14% center/cover no-repeat;
+		background: url("../../img/main.jpg") 14% center/cover no-repeat;
 		&__wrapper {
 			margin-top: 30px;
 		}
@@ -198,14 +198,14 @@
 	.consultation {
 		min-height: 570px;
 		padding: 30px 0 30px 0;
-		background: url(../../img/consultation.jpg) 60% center/cover no-repeat;
+		background: url("../../img/consultation.jpg") 60% center/cover no-repeat;
 	}
 	.carousel {
         padding-bottom: 40px;
         &__inner {
 			width: 100%;
 			img {
-				width: 230px;
+				width: 280px;
 				height: 215px;
 			}
         }
@@ -229,6 +229,9 @@
 		}
 	}
 	.feed {
+		&-form {
+			width: 100%;
+		}
 		&__item {
 			flex-direction: column;
 			margin-top: 25px;
@@ -268,6 +271,19 @@
 		}
 		&__social-item {
 			margin: 0 5px;
+		}
+	}
+	.overlay {
+		.modal {
+			width: 298px;
+			padding: 30px 20px 30px 20px;
+			&__subtitle {
+				font-size: 15px;
+			}
+			&__close {
+				top: 3px;
+				right: 3px;
+			}
 		}
 	}
 }
