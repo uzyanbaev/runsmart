@@ -1,4 +1,7 @@
-<h1 align="center">Мой 3 проект</h1>
-<h3 align="center">Проект был сделан при помощи курса Ивана Петриченко WEB-разработчик</h3>
-<h4 align="center">были использованы: HTML | SCSS | JS | JQUERY | GULP | PHP MAILER (не заполненный) | SLICK SLIDER | ANIMATE.CSS | WOW.JS</h4>
-<h5 align="center">был сделан 11.07.23</h5>
+# RunSmart
+
+### Проектная работа №3 из курса Ивана Петриченко web-разработчик
+#### В проекте были использованы:
+1. HTML | SCSS | JS | JQUERY | BEM | PHP MAILER (не заполнненый)
+2. SLICK SLIDER | ANIMATE.CSS | WOW.JS
+3. Адаптивная верстка
